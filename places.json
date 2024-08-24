@@ -1,0 +1,81 @@
+{
+    "countries": [
+      {
+        "id": 1,
+        "name": "Australia",
+        "cities": [
+          {
+            "name": "Sydney, Australia",
+            "imageUrl": "data:image/jpeg;base64,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",
+            "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
+          },
+          {
+            "name": "Melbourne, Australia",
+            "imageUrl": "https://static.ffx.io/images/$zoom_0.21752395960174775%2C$multiply_0.6058%2C$ratio_1.5%2C$width_756%2C$x_307%2C$y_9/t_crop_custom/q_86%2Cf_auto/fbc7abcb088145845d094d2221a25772a8bae721",
+            "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Japan",
+        "cities": [
+          {
+            "name": "Tokyo, Japan",
+            "imageUrl": "https://www.universalweather.com/blog/wp-content/uploads/2019/07/tokyo-ops-7-19-750x375.jpg",
+            "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
+          },
+          {
+            "name": "Kyoto, Japan",
+            "imageUrl": "https://www.hertz.com/content/dam/hertz/global/blog-articles/planning-a-trip/kyoto-japan/kyoto-header.jpg",
+            "description": "Known for its historic temples, gardens, and traditional tea houses."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Brazil",
+        "cities": [
+          {
+            "name": "Rio de Janeiro, Brazil",
+            "imageUrl": "https://cdn.britannica.com/03/94403-050-03683FB0/Rio-de-Janeiro-Braz.jpg",
+            "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
+          },
+          {
+            "name": "São Paulo, Brazil",
+            "imageUrl": "https://www.benoitproperties.com/wp-content/uploads/2023/09/sao-paulo-header.png",
+            "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
+          }
+        ]
+      }
+    ],
+    "temples": [
+      {
+        "id": 1,
+        "name": "Angkor Wat, Cambodia",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwPy1oSckWNKt9CkhEE4TUoRKN7r9WCnqocg&s",
+        "description": "A UNESCO World Heritage site and the largest religious monument in the world."
+      },
+      {
+        "id": 2,
+        "name": "Taj Mahal, India",
+        "imageUrl": "https://media.istockphoto.com/id/155096944/photo/taj-mahal-sunrise.jpg?s=612x612&w=0&k=20&c=SR-5FqC8K5cMJwUbLa-UQGAvZdJ48rLrdg63bBYpsDU=",
+        "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
+      }
+    ],
+    "beaches": [
+      {
+        "id": 1,
+        "name": "Bora Bora, French Polynesia",
+        "imageUrl": "https://i0.wp.com/jyoshankar.com/wp-content/uploads/2020/09/icfr_3.jpg?resize=800%2C600&ssl=1",
+        "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
+      },
+      {
+        "id": 2,
+        "name": "Copacabana Beach, Brazil",
+        "imageUrl": "https://images.squarespace-cdn.com/content/v1/63b42d68124e4755513cecb9/c4833e41-a256-41d8-8dd9-815a683a2ed3/copacabana-beach.jpg",
+        "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
+      }
+    ]
+  }
+  
