@@ -1,0 +1,190 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+.headerContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(15, 108, 108);
+  align-items: center;
+  padding: 5px 10px;
+  position: relative;
+  z-index: 999;
+  scroll-behavior: unset;
+}
+.headerContainer .headerLogo {
+  color: white;
+}
+.headerContainer .main_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headerContainer .main_menu ul {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  list-style-type: none;
+}
+.headerContainer .main_menu ul a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.headerContainer .main_menu ul a:active {
+  background-color: rgb(0, 187, 250);
+}
+.headerContainer .searchBar {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  padding-right: 15px;
+}
+.headerContainer .searchBar .searchBarInner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+}
+.headerContainer .searchBar .searchBarInner input {
+  width: 280px;
+  padding: 3px 10px;
+}
+.headerContainer .searchBar .searchBarInner input ::-moz-placeholder {
+  font-size: 5px;
+}
+.headerContainer .searchBar .searchBarInner input ::placeholder {
+  font-size: 5px;
+}
+.headerContainer .searchBar .searchBarInner .btn {
+  padding: 3px 10px;
+  background-color: rgb(0, 129, 203);
+  color: white;
+  border-radius: 0;
+  border: none;
+}
+.headerContainer .searchBar .searchBarInner .btn::hover {
+  transform: scale(1.1);
+}
+.headerContainer .searchBar .resultsContainer {
+  width: 350px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 50px;
+  right: 120px;
+  row-gap: 10px;
+  overflow-y: auto !important;
+  height: 90dvh;
+  scrollbar-width: none;
+}
+.headerContainer .searchBar .resultsContainer .card {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.headerContainer .searchBar .resultsContainer .card img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.headerContainer .searchBar .resultsContainer .card-content {
+  padding: 15px;
+}
+.headerContainer .searchBar .resultsContainer .card-content h2 {
+  margin: 0;
+  font-size: 18px;
+}
+.headerContainer .searchBar .resultsContainer .card-content p {
+  color: #555;
+  font-size: 14px;
+}
+.headerContainer .searchBar .resultsContainer .btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #00796b;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+.headerContainer .searchBar .resultsContainer .time-banner {
+  background-color: #00695c;
+  color: white;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.heroSection {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.598), rgba(255, 255, 255, 0)), url(./Images/heroSection\ background\ image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  display: grid;
+  grid-row: 1;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 0.2fr 1fr 1fr;
+  padding: 10px 10px;
+  height: 100dvh;
+  overflow: hidden;
+  color: white;
+}
+.heroSection .socialSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 40px;
+  padding-top: 35px;
+  height: 100%;
+  font-size: 20px;
+  overflow: hidden;
+  color: white;
+}
+.heroSection .textSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 40px;
+  overflow: hidden;
+}
+.heroSection .textSection h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 900;
+  font-size: 50px;
+}
+.heroSection .textSection p {
+  width: 60%;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heroSection .textSection button {
+  padding: 3px 10px;
+  background-color: rgb(0, 129, 203);
+  color: white;
+  border-radius: 0;
+  border: none;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.heroSection .textSection button:hover {
+  transform: scale(1.1);
+  transition: all 0.4s ease-in-out;
+  background-color: rgb(15, 108, 108);
+}
+.heroSection .emptySection {
+  overflow: hidden;
+}/*# sourceMappingURL=styles.css.map */
