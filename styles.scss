@@ -1,0 +1,46 @@
+$primary_Color: rgb(15, 108, 108);
+$secondary_color: rgb(0, 129, 203);
+
+
+@mixin button_style {
+    padding: 3px 10px;
+    background-color: $secondary_color;
+    color: white;
+    border-radius: 0;
+    border: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    overflow: hidden;
+}
+
+
+.headerContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: $primary_Color;
+    align-items: center;
+    padding: 5px 10px;
+    // overflow: hidden;
+    position: relative;
+    
+    z-index: 999;
+    scroll-behavior: unset;
+
+    .headerLogo {
+        color: white;
+    }
+
+
+    .main_menu {
+
+        // background-color: bisque;
+        display: flex;
+        justify-content: center;
+        align-items: center;
